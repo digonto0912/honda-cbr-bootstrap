@@ -15,6 +15,12 @@ body{
 .dark{
     color:#000;
 }
+.light{
+    color: #fff ;
+}
+.mb-0{
+    margin-bottom: 0%;
+}
 
 
 
@@ -23,7 +29,8 @@ body{
 /* top section */
 .top-section{
     background-color: #264653;
-    height: 698px;
+    height: 750px;
+    width: 100%;
 }
 
 .text-button{
@@ -55,8 +62,6 @@ body{
 }
 /* img size */
 .top-section > div > img{
-    width: 552px;
-    height: 447px;
     margin-left:0px;
     margin-right:183px;
     margin-top:155px;
@@ -74,13 +79,13 @@ body{
     margin-bottom: 120px;
 }
 .fetured-bikes-text > h1{
-    font-size: 48px;
+    font-size: 40px;
 }
 .fetured-bikes-text > h6{
     font-size: 14px;
     color: #E76F51;
 }
-.fetured-bikes > div > img{
+.fetured-bikes-img{
     width: 288px;
     height: 243px;
     margin-left:35px;
@@ -142,6 +147,7 @@ body{
 /* Frequently Asked Questions */
 .Frequently-Asked-Questions{
     margin-top:158px;
+    height: 600px;
 }
 .Frequently-Asked-Questions > h1{
     margin-bottom:112px;
@@ -151,8 +157,8 @@ body{
     height: 423.5px;
     margin-right:141px;
 }
-.accorfion-size{
-    width: 552px;
+.accordion-size{
+    width: auto;
     height: 203px;
 }
 
@@ -182,4 +188,16 @@ body{
 .py-8{
     padding-top:6.9px;
     padding-bottom:6.9px;
+}
+
+.w{
+    width:50px;
+}
+
+/* vaia ami onek cesta korar por r kono upay na pae a kaj ta kori. */
+
+@media only screen and (max-width:576px) {
+    .container-8{
+        height: 800px;
+    }
 }
